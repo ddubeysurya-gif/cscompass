@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Computers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="CS Compass Logo">
+        <div class="brand-text">
+            <h1>CS Compass</h1>
+            <p>Your CS Navigator</p>
+        </div>
+    </a>
+</header>
+<section class="hero">
+    <h2>Normalization</h2>
+    <p>Learn how normalization removes redundancy and improves database design.</p>
+</section>
+<section class="content">
+    <h2>What is Normalization?</h2>
+    <p>Normalization is the process of organizing data in a 
+        database to reduce redundancy and improve data integrity.
+        It divides large tables into smaller related tables.
+    </p>
+    <h2>Need for Normalization</h2>
+    <ul>
+        <li>Reduce data redundancy</li>
+        <li>Improve data consistency</li>
+        <li>Avoid insertion anomalies</li>
+        <li>Avoid deletion anomalies</li>
+        <li>Avoid update anomalies</li>
+    </ul>
+    <h2>Types of Normal Forms</h2>
+    <ul>
+        <li>First Normal Form (1NF)</li>
+        <li>Second Normal Form (2NF)</li>
+        <li>Third Normal Form (3NF)</li>
+        <li>Boyce-Codd Normal Form (BCNF)</li>
+    </ul>
+    <h2>First Normal Form (1NF)</h2>
+    <p>A table is in 1NF if:</p>
+    <ul>
+        <li>Each column contains atomic values.</li>
+        <li>No repeating groups are present.</li>
+        <li>Each row is unique.</li>
+    </ul>
+    <h2>Second Normal Form (2NF)</h2>
+    <p>A table is in 2NF if:</p>
+    <ul>
+        <li>It is already in 1NF.</li>
+        <li>No partial dependency exists.</li>
+        <li>Every non-key attribute depends on the whole primary key.</li>
+    </ul>
+    <h2>Third Normal Form (3NF)</h2>
+    <p>A table is in 3NF if:</p>
+    <ul>
+        <li>It is already in 2NF.</li>
+        <li>No transitive dependency exists.</li>
+        <li>Non-key attributes depend only on the primary key.</li>
+    </ul>
+    <h2>Boyce-Codd Normal Form (BCNF)</h2>
+    <p>BCNF is an advanced version of 3NF.
+        For every functional dependency, the determinant must be a candidate key.
+    </p>
+    <h2>Advantages of Normalization</h2>
+    <ul>
+        <li>Reduces redundancy</li>
+        <li>Improves consistency</li>
+        <li>Saves storage space</li>
+        <li>Improves database maintenance</li>
+        <li>Reduces anomalies</li>
+    </ul>
+    <h2>Exam Points</h2>
+    <ul>
+        <li>1NF → Atomic values</li>
+        <li>2NF → No partial dependency</li>
+        <li>3NF → No transitive dependency</li>
+        <li>BCNF → Determinant must be candidate key</li>
+        <li>Normalization reduces redundancy</li>
+    </ul>
+
+</section>
+<footer>
+
+    <div class="footer-content">
+
+        <h3>CS Compass</h3>
+
+        <p>Your Computer Science Navigator</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="notes.html">Notes</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+
+        <p class="copyright">
+            CS Compass v1.0
+            © 2026 CS Compass. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

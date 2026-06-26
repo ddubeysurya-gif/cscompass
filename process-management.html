@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Operating System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="CS Compass Logo">
+        <div class="brand-text">
+            <h1>CS Compass</h1>
+            <p>Your CS Navigator</p>
+        </div>
+    </a>
+</header>
+<section class="hero">
+    <h2>Process Management</h2>
+    <p>Learn how the Operating System manages processes and CPU execution.</p>
+</section>
+<section class="content">
+    <h2>What is a Process?</h2>
+    <p>A process is a program that is currently being executed. It contains program code, data, memory, and other resources required for execution.</p>
+    <h2>Program vs Process</h2>
+    <table>
+        <tr>
+            <th>Program</th>
+            <th>Process</th>
+        </tr>
+        <tr>
+            <td>Passive entity</td>
+            <td>Active entity</td>
+        </tr>
+        <tr>
+            <td>Stored on disk</td>
+            <td>Stored in memory</td>
+        </tr>
+        <tr>
+            <td>Static</td>
+            <td>Dynamic</td>
+        </tr>
+    </table>
+    <h2>Process States</h2>
+    <p>A process generally passes through the following states:</p>
+    <ul>
+        <li>New – Process is being created.</li>
+        <li>Ready – Waiting for CPU allocation.</li>
+        <li>Running – Instructions are being executed.</li>
+        <li>Waiting – Waiting for an event or I/O operation.</li>
+        <li>Terminated – Process execution is completed.</li>
+    </ul>
+    <h2>Process Control Block (PCB)</h2>
+    <p>PCB is a data structure maintained by the Operating System that stores information about a process.</p>
+    <ul>
+        <li>Process ID</li>
+        <li>Process State</li>
+        <li>Program Counter</li>
+        <li>CPU Registers</li>
+        <li>Memory Information</li>
+    </ul>
+    <h2>CPU Scheduler</h2>
+    <p>The CPU Scheduler selects a process from the ready queue and allocates CPU time to it.</p>
+    <h2>Context Switching</h2>
+    <p>Context Switching is the process of saving the state of one process and loading the state of another process so that CPU execution can continue smoothly.</p>
+
+</section>
+<footer>
+
+    <div class="footer-content">
+
+        <h3>CS Compass</h3>
+
+        <p>Your Computer Science Navigator</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="notes.html">Notes</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+
+        <p class="copyright">
+            CS Compass v1.0
+            © 2026 CS Compass. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
