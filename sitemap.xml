@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://cscompass.in/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url><loc>https://cscompass.in/index.html</loc></url>
+  <url><loc>https://cscompass.in/about.html</loc></url>
+  <url><loc>https://cscompass.in/contact.html</loc></url>
+  <url><loc>https://cscompass.in/notes.html</loc></url>
+  <url><loc>https://cscompass.in/quiz.html</loc></url>
+  <url><loc>https://cscompass.in/test-series.html</loc></url>
+  <url><loc>https://cscompass.in/pyq.html</loc></url>
+
+  <url><loc>https://cscompass.in/computer-fundamentals.html</loc></url>
+  <url><loc>https://cscompass.in/computer-generations.html</loc></url>
+  <url><loc>https://cscompass.in/introduction-to-computers.html</loc></url>
+  <url><loc>https://cscompass.in/hardware-software.html</loc></url>
+  <url><loc>https://cscompass.in/input-output-devices.html</loc></url>
+  <url><loc>https://cscompass.in/memory-units.html</loc></url>
+
+  <url><loc>https://cscompass.in/operating-system.html</loc></url>
+  <url><loc>https://cscompass.in/intro-os.html</loc></url>
+  <url><loc>https://cscompass.in/process-management.html</loc></url>
+  <url><loc>https://cscompass.in/memory-management.html</loc></url>
+  <url><loc>https://cscompass.in/file-management.html</loc></url>
+  <url><loc>https://cscompass.in/types-of-os.html</loc></url>
+
+  <url><loc>https://cscompass.in/DBMS.html</loc></url>
+  <url><loc>https://cscompass.in/Introduction%20to%20DBMS.html</loc></url>
+  <url><loc>https://cscompass.in/er-model.html</loc></url>
+  <url><loc>https://cscompass.in/normalization.html</loc></url>
+  <url><loc>https://cscompass.in/relational-model.html</loc></url>
+  <url><loc>https://cscompass.in/sql-basic.html</loc></url>
+  <url><loc>https://cscompass.in/transaction-concurrency.html</loc></url>
+
+  <url><loc>https://cscompass.in/deadlock.html</loc></url>
+
+  <url><loc>https://cscompass.in/login.html</loc></url>
+  <url><loc>https://cscompass.in/register.html</loc></url>
+  <url><loc>https://cscompass.in/privacy.html</loc></url>
+  <url><loc>https://cscompass.in/terms.html</loc></url>
+  <url><loc>https://cscompass.in/explore-syllabus.html</loc></url>
+
+</urlset>
